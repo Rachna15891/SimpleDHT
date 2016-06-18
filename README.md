@@ -5,9 +5,9 @@ This application is a simple DHT based on Chord. Although the design is based on
 
 Therefore, there are three things which have been implemented:
 
-    -ID space partitioning/re-partitioning
-    -Ring-based routing
-    -Node joins
+    - ID space partitioning/re-partitioning
+    - Ring-based routing
+    - Node joins
 
 The content provider implements all DHT functionalities and supports insert query and delete operations. Thus, if you multiple instances of the app are run, all content provider instances form a Chord ring and serve insert/query requests in a distributed fashion according to the Chord protocol.
 
